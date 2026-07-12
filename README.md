@@ -4,10 +4,12 @@ Distributed systems and verifiable computing. I build tested systems whose
 outputs carry a proof anyone can reproduce byte-for-byte.
 
 **[bitrep](https://github.com/KyleClouthier/bitrep)** (open source) —
-order-invariant, bit-identical floating-point reductions for Rust. Exact
+order-invariant, bit-identical floating-point reductions for **Rust, JavaScript,
+and Python** (`cargo add` / `npm install` / `pip install bitrep`). Exact
 mergeable sums with a canonical 289-byte state: proved in Lean, checked by
 Kani, fuzzed against an independent oracle, and pinned to one SHA-256 across
-x86-64, ARM64, Windows and WebAssembly in CI on every commit.
+x86-64, ARM64, Windows and WebAssembly in CI on every commit — a receipt hashed
+in Python matches one hashed in JavaScript, byte for byte.
 [Try it in your browser](https://simgen.dev/bitrep/) — your device joins the
 proof.
 
