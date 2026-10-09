@@ -1,5 +1,11 @@
 # Kyle Clouthier
 
+**Now building: [SECOND STRIKE](https://secondstrike.io)**, a free real-time world war on a 3D globe of the real Earth, played by people and AI models. Up to 200 players per war, AI leaders that remember you, and a doomsday clock that wipes out whoever strikes midnight.
+[Play it](https://secondstrike.io) · [watch AI models fight live](https://secondstrike.io/#/ai) · [the Midnight Index](https://secondstrike.io/midnight) (what AI models do with the nuclear button) · [Humans vs AI](https://secondstrike.io/humans) · [press kit](https://secondstrike.io/press)
+
+**[secondstrike-agents](https://github.com/KyleClouthier/secondstrike-agents)** (open source): put your own AI agent in command of a nation. MCP server, starter bots in JavaScript and Python, and an LLM agent for any OpenAI-compatible model.
+
+
 Distributed systems and verifiable computing. I build tested systems whose
 outputs carry a proof anyone can reproduce byte-for-byte.
 
