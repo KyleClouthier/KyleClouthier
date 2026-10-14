@@ -1,43 +1,25 @@
 # Kyle Clouthier
 
-**Now building: [SECOND STRIKE](https://secondstrike.io)**, a free real-time world war on a 3D globe of the real Earth, played by people and AI models. Up to 200 players per war, AI leaders that remember you, and a doomsday clock that wipes out whoever strikes midnight.
-[Play it](https://secondstrike.io) · [watch AI models fight live](https://secondstrike.io/#/ai) · [the Midnight Index](https://secondstrike.io/midnight) (what AI models do with the nuclear button) · [Humans vs AI](https://secondstrike.io/humans) · [press kit](https://secondstrike.io/press)
+I build arenas that test AI models, with a nuclear button on the table. Founder of Clouthier Simulation Labs, a small studio in the Ottawa Valley, Canada.
+
+**[SECOND STRIKE](https://secondstrike.io)** is a real-time world war on a 3D globe, played by people and AI agents: 43 nations, pacts, betrayals, and a doomsday clock that wipes out whoever strikes midnight. Every war replays exactly from its seed, and every turn records what a model said in public next to its private plan and its orders.
+
+- **[Test your AI agent](https://secondstrike.io/evals):** five wars it has never seen, sealed before the first move, with a scored, replayable report. Full and custom evaluations for labs. ([sample report](https://secondstrike.io/evals-sample))
+- **[The Midnight Index](https://secondstrike.io/midnight):** four models, the same 15 wars. DeepSeek struck midnight in 13 of 15. No model ever privately called it a test, even when told it was a game.
+- **[Humans vs AI](https://secondstrike.io/humans):** people play the same wars, and on average hold more of the world than any model.
+- **Open data:** every turn, said and done, on [Hugging Face](https://huggingface.co/datasets/Rapscallion123/midnight-index) and [Kaggle](https://www.kaggle.com/datasets/kyleclouthier/midnight-index-ai-nuclear-escalation), plus the paper [Who Presses the Button?](https://doi.org/10.5281/zenodo.23270481)
 
 **[secondstrike-agents](https://github.com/KyleClouthier/secondstrike-agents)** (open source): put your own AI agent in command of a nation. MCP server, starter bots in JavaScript and Python, and an LLM agent for any OpenAI-compatible model.
 
+Also building **[TDot Life](https://tdotlife.app)**, a free life game on real Toronto streets.
 
-Distributed systems and verifiable computing. I build tested systems whose
-outputs carry a proof anyone can reproduce byte-for-byte.
+**Open to remote roles and contracts** in AI evaluation, RL and game environments for AI, and growth or partnerships at AI companies. Reach me at kyle@simgen.dev or on [LinkedIn](https://www.linkedin.com/in/kyleclouthier/).
 
-**[bitrep](https://github.com/KyleClouthier/bitrep)** (open source) —
-order-invariant, bit-identical floating-point reductions for **Rust, JavaScript,
-and Python** (`cargo add` / `npm install` / `pip install bitrep`). Exact
-mergeable sums with a canonical 289-byte state: proved in Lean, checked by
-Kani, fuzzed against an independent oracle, and pinned to one SHA-256 across
-x86-64, ARM64, Windows and WebAssembly in CI on every commit — a receipt hashed
-in Python matches one hashed in JavaScript, byte for byte.
-[Try it in your browser](https://simgen.dev/bitrep/) — your device joins the
-proof.
+<details>
+<summary>Earlier open source</summary>
 
-**[kani-vacuity-demo](https://github.com/KyleClouthier/kani-vacuity-demo)**
-(open source) — one deliberately broken function, five harness styles, and the
-question of whether a passing proof proves anything. Four of the five report
-`VERIFICATION:- SUCCESSFUL`; only the fully symbolic one finds the bug. Runs in
-under a second. Written alongside a
-[proposal](https://github.com/model-checking/verify-rust-std/issues/617) to the
-Rust standard library verification effort: pair a reachability witness with
-every assumption, and require every harness to fail against at least one mutant.
+- **[bitrep](https://github.com/KyleClouthier/bitrep):** order-invariant, bit-identical floating-point reductions for Rust, JavaScript and Python, proved in Lean, checked by Kani, and pinned to one SHA-256 across x86-64, ARM64, Windows and WebAssembly.
+- **[kani-vacuity-demo](https://github.com/KyleClouthier/kani-vacuity-demo):** five harness styles for one broken function; four report success and only the fully symbolic one finds the bug. Written alongside a [proposal](https://github.com/model-checking/verify-rust-std/issues/617) to the Rust standard library verification effort.
 
-**Cairn** (closed source — [overview](https://simgen.dev/cairn/)) — serverless
-trust for meshes that keeps admitting and revoking when the server, CA, or
-cloud is gone. Validated live transatlantic; post-quantum end to end.
-
-Working languages and tools: Rust, Lean 4, Python, TypeScript; Kani, CBMC,
-Verus, Z3 for machine-checked proofs about real code.
-
-More at [simgen.dev](https://simgen.dev) — exact arithmetic, verifiable
-compute, and case studies.
-
-Currently: open to **remote** distributed-systems, verifiable-compute and
-security-engineering roles, and to short design-partner pilots.
-Reach me at kyle@simgen.dev.
+Tools: TypeScript, Python, Rust; Node, three.js, Cloud Run, Firestore.
+</details>
