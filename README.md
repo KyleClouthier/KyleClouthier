@@ -6,6 +6,8 @@ Full-stack developer and marketer in the Ottawa Valley, Canada. I run Clouthier 
 
 **[AgentDecoy](https://simgen.dev/agentdecoy/)** protects websites and apps from hostile AI agents and scanners with a network of decoys. Fake `.env`, `.git`, AI key and MCP files catch whoever comes looking, every stolen key is traced to the visit it was taken on, and an address caught on one site is refused on logins and forms on every protected site. Search engines and AI search bots are never blocked, and pages always load.
 
+**The AI Agent Leak Clock (live):** I leaked fake AI keys on purpose. A public Gist key was used after 3 seconds, a GitHub repo key after 15 seconds, and a Hugging Face Space key in under 2 minutes. [Live results](https://simgen.dev/agentdecoy/leak-clock/).
+
 On our own sites, a decoy AWS key was taken by a scanner and used 2 hours 39 minutes later to try to make itself admin. It is now locked out network-wide.
 
 - **[agentdecoy](https://github.com/KyleClouthier/agentdecoy)** (npm `agentdecoy`): one line for Next.js, Vercel, Netlify, Firebase, Cloudflare, Express or any Node server, plus a one-file PHP version. `npx agentdecoy init`
